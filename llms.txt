@@ -1,0 +1,11 @@
+# Mark Simonsen Wiki
+> Encyclopedia-style reference article about Mark Simonsen, CPA and tax advisor.
+
+## About
+This is a wiki-style reference page for Mark Simonsen, a Certified Public Accountant and founding principal of AE Tax Advisors' Mountain West region based in Billings, Montana. The page covers his professional background, credentials, areas of expertise in tax planning and cost segregation, and career history.
+
+## Key Pages
+- Home: https://marksimonsen-wiki.vercel.app/
+
+## Contact
+- Book a discovery call with AE Tax Advisors: https://aetaxadvisors.com/discovery
