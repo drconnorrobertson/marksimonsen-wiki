@@ -71,6 +71,18 @@ h3.subsection-heading { font-size: 1.08rem; font-weight: 600; margin-top: 20px; 
 .site-footer { max-width: 1200px; margin: 30px auto 40px; padding: 16px 24px; font-size: 0.78rem; color: #777; text-align: center; border-top: 1px solid #ddd; line-height: 1.6; }
 @media (max-width: 860px) { .infobox { float: none; width: 100%; margin: 0 0 20px 0; } .page-wrapper { flex-direction: column; } .content-area { padding: 20px 16px 30px; } .site-nav { display: none; } .article-title { font-size: 1.5rem; } .toc { max-width: 100%; } }
 @media print { .site-header, .site-nav, .subtitle-bar, .site-footer, .edit-link { display: none; } .content-area { border: none; padding: 0; } .infobox { float: right; width: 280px; } }
+
+/* Visual refinement 2026-10: preserve the existing brand, layout and content. */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+h1, h2, h3 { text-wrap: balance; }
+p, blockquote { text-wrap: pretty; }
+:where(a, button, input, select, textarea):focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+:where(article, .content, .article-content) a { text-underline-offset: .2em; text-decoration-thickness: 1px; }
+:where(.hero-grid, .features-grid, .cards-grid, .grid, .footer-grid) > * { min-width: 0; }
+@media (max-width: 600px) { input, select, textarea { font-size: 16px; } :where(.hero-cta, .hero-actions, .cta-actions) { flex-wrap: wrap; row-gap: 12px; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .01ms !important; animation-delay: 0ms !important; transition-duration: .01ms !important; } }
+
+h1 { letter-spacing: -.025em; } h2 { letter-spacing: -.015em; } article p, .content p { line-height: 1.8; }
 </style>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Person","name":"Mark Simonsen","givenName":"Mark","familyName":"Simonsen","jobTitle":"CPA, Managing Partner - Northwest Region, AE Tax Advisors","description":"Certified Public Accountant and Managing Partner of the Northwest Region at AE Tax Advisors, specializing in advanced tax strategy for business owners, real estate investors, and entrepreneurs.","homeLocation":{"@type":"Place","name":"Montana, United States"},"worksFor":{"@type":"Organization","name":"AE Tax Advisors","url":"https://aetaxadvisors.com"},"knowsAbout":["Tax Strategy","Entity Structuring","Cost Segregation","Real Estate Tax Planning","STR Strategy","Business Owner Tax Optimization","Certified Public Accountant"]}
